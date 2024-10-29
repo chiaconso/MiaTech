@@ -6,12 +6,20 @@
     <title>Document</title>
 </head>
 <body>
-
-<img src="./background new york.png" alt="sfondo della città di New York" 
-srcset="background new york.png 5833w, background new york1.png 5332w, background new york2.png 4843w"
-sizes="70vmin"
->
-
+    
+    <form action="./action_page.php" method="get">
+        <label for="nome">Nome:
+            <input type="text" value="Chiara" placeholder="Il mio nome" size="20" >
+            <input type="button" value="Invia">
+        </label> <br>
+        <label for="nome">Cognome:
+            <input type="text" placeholder="Il mio cognome" maxlength="13">
+        </label> <br>
+        <label for="Età">Età:
+            <input type="number" placeholder="La mia età" step="1">
+        </label>
+    </form>
+    
     
 </body>
 </html>
