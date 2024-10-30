@@ -6,29 +6,72 @@
     <title>Document</title>
 </head>
 <body>
-    <table>
-        <thead>
-            <tr>
-                <th>Months</th>
-                <th>Savings</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>January</td>
-                <td>$100</td>
-            </tr>
-            <tr>
-                <td>Febraury</td>
-                <td>$80</td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <tr>
-                <td>Sum</td>
-                <td>$180</td>
-            </tr>
-        </tfoot>
-    </table>
+    <header>
+        <section>
+            <div>
+                <h1>Grand Hotel Admiral Palace</h1>
+            </div>
+        </section>
+        <nav>
+            <ul>
+                <li><a href="https://www.admiralpalace.it/">Home</a></li>
+                <li><a href="https://www.admiralpalace.it/hotel/">L'Hotel</a></li>
+                <li><a href="https://www.admiralpalace.it/servizi/">I Servizi</a></li>
+                <li><a href="https://www.admiralpalace.it/offerte/">Offerte</a></li>
+            </ul>
+        </nav>  
+    </header>
+    <main>
+        <section> 
+            <div>
+                <article>
+                    Una fuga di benessere nel cuore della Toscana
+                </article>
+                <img src="./colline-toscane.jpg" alt="" width="450" height="350">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>
+                    A Chianciano Terme, sulle colline tra la Val d'Orcia e Val di Chiana, sorge il Grand Hotel Admiral Palace. <br>
+                    La struttura a 4 stelle è circondata da panorami mozzafiato, borghi autentici e un grande parco che ne preserva la quiete. <br>
+                    Grazie alla completezza dei servizi offerti, l’hotel si presta per accogliere diverse tipologie di turismo: termale, culturale, enogastronomico, business e sportivo.
+                </p>
+                <p>
+                    Non solo coppie e famiglie, le nostre eleganti camere sanno mettere d’accordo diverse tipologie di viaggiatori. <br>
+                    Tra le tante comodità dell’hotel, spiccano un centro benessere di oltre 1000 mq, una piscina interna e una esterna aperta stagionalmente, un ristorante con proposte gastronomiche variegate, <br> un centro congressi con sale modulabili, un parcheggio privato sempre gratuito e un garage a posti limitati.
+                </p>
+            </div>
+        </section>
+        <section>
+            <form action="./action_page.php" method="get">
+                <div>
+                    <label for="eMail">Email:</label>
+                    <input type="email" placeholder="Enter Your Mail" required> 
+                </div>
+                <br>
+                <div>
+                    <input type="radio" name="gender" required>Male 
+                    <input type="radio" name="gender" required>Female
+                </div>
+                <br>
+                <div>
+                    <label for="per accettare termini e condizioni">Per accettare Termini e Condizioni</label>
+                    <input type="checkbox" name="per accettare termini e condizioni" value="per accettare termini e condizioni" required> 
+                    <label for="privacy">Privacy</label>
+                    <input type="checkbox" name="privacy" value="privacy" required>
+                </div>
+                <br>
+                <div>
+                    <input type="submit" value="Invia">
+                </div> 
+            </form>
+        </section>
+    </main>
+    <br>
+    <br>
+    <footer>
+        P.Iva 01129240311 - Privacy & Cookie Policy - Preferenze Cookie - CIN: IT052009A16KRB436MCredits TITANKA! Spa
+    </footer> 
 </body>
 </html>
